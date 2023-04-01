@@ -330,9 +330,16 @@ label{
 
 /*-----MEDIA------------------------------------------------*/
 @media (min-width: 1200px){
-
+	html,
+	body{
+		zoom: 90%;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px){
+	html,
+	body{
+		zoom: 90%;
+	}
 	.menu__item:not(:last-child){
 		margin: 0 56px 0 0;
 	}
@@ -358,6 +365,10 @@ label{
 
 }
 @media (min-width: 768px) and (max-width: 991px){
+	html,
+	body{
+		zoom: 90%;
+	}
 	.menu__link {
 		font-size: 16px;
 	}
@@ -389,6 +400,10 @@ label{
 	
 }
 @media (min-width: 480px) and (max-width: 767px){
+	html,
+	body{
+		zoom: 90%;
+	}
 	.menu__list{
 		display: none;
 	}
@@ -447,6 +462,10 @@ label{
 	}
 }
 @media (min-width: 469px) and (max-width: 596px){
+	html,
+	body{
+		zoom: 90%;
+	}
 	.menu__list{
 		display: none;
 	}
