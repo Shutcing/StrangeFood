@@ -519,8 +519,9 @@ label{
 @media (min-width: 320px) and (max-width: 470px){
 	html,
 	body{
-		zoom: 120%;
+		zoom: 110%;
 	}
+	
 	.menu__list{
 		display: none;
 	}
