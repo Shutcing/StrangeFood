@@ -29,7 +29,7 @@ h6{
 }
 html,
 body{
-	zoom: 120%;
+	zoom: 90%;
 	height: 100%;
 	line-height: 1;
 	font-size: 16px;
@@ -517,6 +517,10 @@ label{
 	}
 }
 @media (min-width: 320px) and (max-width: 470px){
+	html,
+	body{
+		zoom: 120%;
+	}
 	.menu__list{
 		display: none;
 	}
